@@ -35,6 +35,7 @@ public class BlogAppApisApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BlogAppApisApplication.class, args);
+		System.out.println("Print this line for testing:");
 	}
 
 	@Bean
